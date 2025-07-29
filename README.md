@@ -109,10 +109,10 @@ Example entry: 0	NDAR_INVZZZP87KR	1.234
 To perform a genome-wide CNVR association analysis using a continuous phenotype, you can use the following command:
 
 perl ParseCNV2_RevisedABCD.pl \
-  -i cnv_input.rawcnv \
-  -q pheno.txt \
+  -i /ParseCNV2/Cases.rawcnv \
+  -q Cases.qt \
   -b hg19 \
-  -batch batch_id.txt \
+  -batch ID_Category.txt \
   -stat linear \
   -no_freq \
   -m 1 \
